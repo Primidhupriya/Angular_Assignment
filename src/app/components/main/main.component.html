@@ -1,0 +1,74 @@
+<!-- <button>udemy</button>
+<button>loginform</button> -->
+
+<style>
+  .btn-group button {
+    background-color: #3e8e41;
+    /* black background */
+    border: 1px solid rgb(250, 247, 247);
+    /* white border */
+    color: white;
+    /* White text */
+    padding: 10px 24px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    float: left;
+    /* Float the buttons side by side */
+  }
+
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .btn-group button:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+  }
+
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #e41;
+  }
+
+  a {
+    color: #000080;
+  }
+  .btn-group {
+    padding: 5vh 40vw;
+    display: flex;
+  }
+  button{
+    width: 130px;
+    border: 2px solid white;
+  }
+</style>
+
+<div style="min-height: 100vh;color: white;background-repeat: no-repeat;background-position: center;background-size: cover ; min-width: 100vw;background-image: url('https://th.bing.com/th/id/R.b4077d04bbc4db5dbf485e9080863d0c?rik=IegbAfyPJWoZfw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f7SPsyCL.jpg&ehk=WqWuQapF1T%2fqdIx277PWB07SFp9rNLiPtCMHx2mNTxo%3d&risl=&pid=ImgRaw&r=0');">
+
+  <div style="padding: 20vh 0px;">
+    <h1 style="margin: 0vh;text-align: center;">
+    
+      Angular Assignment</h1>
+    <h2 style="text-align: center;">
+     
+      PRIYADHARSHINI V</h2>
+    <p style="text-align: center;">
+     
+      FY22 BATCH - 5</p>
+  
+    <div class="btn-group">
+      <button routerLink="/website">Website</button>
+      <br><br><br>&nbsp;&nbsp;
+      &nbsp;&nbsp;
+  
+      <button routerLink="/form">LoginForm</button>
+  
+      <br><br><br>&nbsp;&nbsp;
+  
+    </div>
+  </div>
+</div>

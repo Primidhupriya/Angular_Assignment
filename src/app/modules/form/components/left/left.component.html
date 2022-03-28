@@ -1,0 +1,12 @@
+
+<form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" [(ngModel)] = "inputobj.FName" ><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" [(ngModel)] = "inputobj.LName"><br>
+    <label for="phoneNo">Phone number:</label><br>
+    <input type="text" id="phoneNo" name="PhoneNo" [(ngModel)] = "inputobj.PhoneNo"><br>
+    <label for="address">Address :</label><br>
+    <input type="text" id="address" name="address" [(ngModel)] = "inputobj.Address"><br>
+    <button type="submit" (click)="outputmethod()" style="margin: 1vh auto;padding: 1vh 2vw;background-color: black;color: white;border: 1px solid rgb(253, 253, 253);">submit</button>
+  </form>
